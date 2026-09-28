@@ -1,232 +1,55 @@
-# 👋 Hello, I'm Jean Ribeiro
+# Jean Ribeiro | Desenvolvedor Front-End & Web Designer
 
-### 💻 Junior Web Developer | Frontend
+Desenvolvedor front-end e web designer freelancer, de Lorena (SP). Crio landing pages e sites responsivos, rápidos e com visual profissional. Tenho 3 anos de formação técnica em informática e estou construindo minha carreira com projetos práticos.
 
-🇧🇷 Brazil · 🌎 Open to International Remote Opportunities
-
-I'm a Web Developer with a Technical Degree in Internet Computing, focused on building responsive and modern web interfaces.
-
-I have hands-on experience developing projects with **HTML, CSS and JavaScript**, using technologies such as **Bootstrap, Tailwind CSS and Sass/SCSS**.
-
-I'm currently expanding my skills in **React, TypeScript and REST APIs**, with the goal of working with modern frontend development and international teams.
+- **Portfólio:** [jeanribeiro8.github.io/JeanRibeiro](https://jeanribeiro8.github.io/JeanRibeiro/)
+- **LinkedIn:** [Jean Ribeiro](https://www.linkedin.com/in/jean-ribeiro-9a3792267/)
+- **Fiverr:** [Meu perfil no Fiverr](https://www.fiverr.com/s/RV7KYbV)
+- **E-mail:** jeanrsantos10@gmail.com
 
 ---
 
-## 🚀 About Me
+## Projetos
 
-- 💻 Focused on Web & Frontend Development
-- 🎓 Technical Degree in Internet Computing
-- 🌎 Looking for international remote opportunities
-- 🧩 Interested in responsive and user-friendly interfaces
-- 🎨 Experience with Figma and UI design
-- 🌐 Experience with WordPress and Elementor
-- 📚 Currently learning React, TypeScript and REST APIs
-- 🔧 Building projects to improve my development skills
+São projetos conceito, criados para demonstrar meu processo de design e desenvolvimento. Todos são responsivos.
 
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-<div align="left">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5" />
-<img width="10" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3" />
-<img width="10" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" />
-<img width="10" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="Bootstrap" />
-<img width="10" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="40" alt="Tailwind CSS" />
-<img width="10" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" alt="Sass" />
-
-</div>
-
-### Tools
-
-<div align="left">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git" />
-<img width="10" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="GitHub" />
-<img width="10" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="Figma" />
-<img width="10" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" height="40" alt="WordPress" />
-
-</div>
-
-### 📚 Currently Learning
-
-<div align="left">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React" />
-<img width="10" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="TypeScript" />
-
-</div>
-
-**Next:** REST APIs · JSON · Node.js · Linux · Docker
+| Projeto | Tipo | Tecnologias | Site | Código |
+|---|---|---|---|---|
+| Gym | Landing page para academia | JavaScript, Bootstrap | [Ver site](https://jeanribeiro8.github.io/gym-site/) | [GitHub](https://github.com/JeanRibeiro8/gym-site) |
+| Techschool | Site institucional de escola de tecnologia | JavaScript, Bootstrap | [Ver site](https://jeanribeiro8.github.io/TecSchool/) | [GitHub](https://github.com/JeanRibeiro8/TecSchool) |
+| Nexus Consulting | Site institucional para consultoria | JavaScript, Tailwind CSS | [Ver site](https://nexusconsultin.netlify.app/) | [GitHub](https://github.com/JeanRibeiro8/nexus-consulting) |
+| BrightSmile | Site para clínica odontológica | JavaScript, Tailwind CSS | [Ver site](https://brightsmlle.netlify.app/) | [GitHub](https://github.com/JeanRibeiro8/brightsmile-site) |
+| Blaze Agencia | Site para agência de marketing | JavaScript, Tailwind CSS | [Ver site](https://blazeagencia.netlify.app/) | [GitHub](https://github.com/JeanRibeiro8/blaze-agencia) |
+| Barber | Landing page para barbearia | JavaScript, Bootstrap | Ver no portfólio | [GitHub](https://github.com/JeanRibeiro8/barber-site) |
+| Petalora | Conceito de e-commerce para floricultura | JavaScript, Tailwind CSS | Ver no portfólio | Em breve |
 
 ---
 
-# 🌐 My Portfolio
+## Tecnologias
 
-### Take a look at my work
+**Uso nos projetos:** HTML, CSS, JavaScript, Tailwind CSS, Bootstrap, SASS, React, WordPress, Elementor, PHP, SQL, APIs REST, Figma, Git e GitHub.
 
-<p align="center">
-  <img src="./src/img/website.gif" width="850" alt="Jean Ribeiro portfolio preview" />
-</p>
+**Estudando:** TypeScript, React Native, Redux e Node.js.
 
-<p align="center">
-  <a href="https://jeanribeiro8.github.io/JeanRibeiro/">
-    <strong>🌐 Visit My Portfolio →</strong>
-  </a>
-</p>
+## O que eu faço
 
-<p align="center">
-  <img src="./src/img/picture-website.png" width="850" alt="Jean Ribeiro portfolio screenshot" />
-</p>
+- Landing pages e sites institucionais, do layout no Figma até a publicação
+- Redesign de sites antigos
+- Análise de sites existentes (design, usabilidade e velocidade)
+- Otimização de performance e SEO básico
 
----
+## Contato
 
-# 🚀 Featured Projects
-
-## 🎓 TecSchool
-
-**Technology:** HTML · CSS · JavaScript · Bootstrap
-
-Responsive website for a technology school, developed with a focus on responsive design, structured layouts and interactive web elements.
-
-🌐 **Live Demo:**  
-https://jeanribeiro8.github.io/TecSchool/
+Respondo em até 24 horas. Se você é recrutador(a) e quer conversar sobre uma vaga ou ver mais detalhes de algum projeto, me chame por e-mail ou LinkedIn.
 
 ---
 
-## 🔥 Blaze Agência
+# English
 
-**Technology:** HTML · CSS · JavaScript · Tailwind CSS
+Freelance front-end developer and web designer based in Lorena, Brazil. I build responsive, fast and professional landing pages and websites. I have 3 years of technical training in IT and I'm growing my career through hands-on projects.
 
-Responsive marketing agency website with a modern interface, service sections, calls-to-action and responsive navigation.
+**Portfolio:** [jeanribeiro8.github.io/JeanRibeiro](https://jeanribeiro8.github.io/JeanRibeiro/) · **LinkedIn:** [Jean Ribeiro](https://www.linkedin.com/in/jean-ribeiro-9a3792267/) · **Fiverr:** [Profile](https://www.fiverr.com/s/RV7KYbV) · **Email:** jeanrsantos10@gmail.com
 
-🌐 **Live Demo:**  
-https://blazeagencia.netlify.app/
+The projects above are concept websites built to show my design and development process, and each one has a live site or a preview and, in most cases, its source code on GitHub. My main stack is HTML, CSS, JavaScript, React, Tailwind CSS, WordPress and Figma, and I'm currently studying TypeScript, React Native, Redux and Node.js.
 
----
-
-## 🦷 BrightSmile
-
-**Technology:** HTML · CSS · JavaScript · Tailwind CSS
-
-Responsive dental clinic website focused on modern UI, service presentation, contact sections and clear calls-to-action.
-
-🌐 **Live Demo:**  
-https://brightsmlle.netlify.app/
-
----
-
-## 💼 Nexus Consulting
-
-**Technology:** HTML · CSS · JavaScript · Tailwind CSS
-
-Responsive institutional website designed to present company information and services through a modern web interface.
-
-🌐 **Live Demo:**  
-https://nexusconsultin.netlify.app/
-
----
-
-# 📋 Currently Building
-
-## Kanban Task Manager
-
-A Trello-inspired task management application created to practice modern frontend development.
-
-### Planned Stack
-
-**React · TypeScript · Tailwind CSS**
-
-### MVP Features
-
-- 📋 Boards, lists and cards
-- 🔄 Drag & Drop
-- 💾 Persistent data
-- 📱 Responsive interface
-
-This project is part of my learning journey toward modern frontend development.
-
----
-
-# 🎯 Career Goals
-
-I'm currently looking for my first professional opportunity in software development, with a focus on **Frontend and Web Development**.
-
-My goal is to work with **international teams in a remote environment**, contribute to real-world projects and continue developing my skills in modern web technologies.
-
-I'm particularly interested in opportunities where I can grow with technologies such as **JavaScript, React and TypeScript**.
-
----
-
-# 🎓 Education
-
-### Technical Degree in Internet Computing
-
-**ETEC Padre Carlos Leôncio**
-
-2021 – 2023
-
----
-
-# 🌎 Languages
-
-🇧🇷 **Portuguese** — Native
-
-🇺🇸 **English** — A2 / approaching B1
-
-Currently improving my English communication skills with a focus on professional and technical communication.
-
----
-
-# 🌎 Connect With Me
-
-<div align="left">
-
-<a href="https://www.linkedin.com/in/jean-ribeiro-9a3792267">
-  <img
-    src="https://img.shields.io/badge/LinkedIn-Jean%20Ribeiro-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-    alt="LinkedIn"
-  />
-</a>
-
-<a href="https://github.com/JeanRibeiro8">
-  <img
-    src="https://img.shields.io/badge/GitHub-JeanRibeiro8-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="GitHub"
-  />
-</a>
-
-</div>
-
-📧 **Email:**  
-jeanrsantos10@gmail.com
-
-🌐 **Portfolio:**  
-https://jeanribeiro8.github.io/JeanRibeiro/
-
----
-
-<p align="center">
-  <i>Always learning, building and improving.</i>
-</p># freelance-portfolio
+If you're a recruiter and would like to talk about a role or see more details on any project, feel free to reach out by email or LinkedIn.

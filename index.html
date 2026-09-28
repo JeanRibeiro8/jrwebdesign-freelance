@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jean Ribeiro | Freelance Front-End Developer & Web Designer</title>
+<meta name="description" content="Freelance Front-End Developer and Web Designer creating modern, responsive, high-performance websites. Landing pages, website redesign, website reviews, SEO and performance optimization.">
+<link rel="canonical" href="https://jeanribeiro8.github.io/JeanRibeiro/">
+<link rel="icon" href="./src/img/favic.png">
+<link rel="stylesheet" href="./src/style/style.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Person","name":"Jean Ribeiro","jobTitle":"Front-End Developer","url":"https://jeanribeiro8.github.io/JeanRibeiro/","image":"https://jeanribeiro8.github.io/JeanRibeiro/src/img/profile.webp","sameAs":["https://github.com/jeanribeiro8","https://www.linkedin.com/in/jean-ribeiro-9a3792267/"],"knowsAbout":["HTML","CSS","JavaScript","React","WordPress","Web Design","Responsive Design","SEO","UI Design","UX Design"]},
+{"@type":"ProfessionalService","name":"Jean Ribeiro","url":"https://jeanribeiro8.github.io/JeanRibeiro/","description":"Freelance Front-End Developer and Web Designer.","areaServed":"Worldwide","priceRange":"$$"}]}
+</script>
+<style>
+html{scroll-behavior:smooth;scroll-padding-top:6rem}
+.i18n-wait body{opacity:0}
+:focus-visible{outline:2px solid #fb923c;outline-offset:3px}
+.prow{display:flex;justify-content:space-between;gap:1rem;padding:.75rem 0;border-bottom:1px solid #27272a;font-size:.875rem}
+.prow:last-child{border-bottom:0}
+.prow span:first-child{color:#d4d4d8}
+.prow span:last-child{color:#fb923c;font-weight:500;text-align:right;flex-shrink:0}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+</style>
+<script>document.documentElement.classList.add('i18n-wait');setTimeout(function(){document.documentElement.classList.remove('i18n-wait')},1500);</script>
+</head>
+
+<body class="tail-container bg-zinc-950 text-white overflow-x-hidden">
+
+<!-- NAV -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800" aria-label="Main">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href="#top" class="w-10 h-10 block"><img src="./src/img/logo.webp" alt="JR Front-End Developer logo" width="40" height="40"></a>
+
+    <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+      <a href="#work" class="hover:text-orange-400 transition-colors">Work</a>
+      <a href="#services" class="hover:text-orange-400 transition-colors">Services</a>
+      <a href="#pricing" class="hover:text-orange-400 transition-colors">Pricing</a>
+      <a href="#about" class="hover:text-orange-400 transition-colors">About</a>
+      <a href="#contact" class="hover:text-orange-400 transition-colors">Contact</a>
+    </div>
+
+    <div class="flex items-center gap-3">
+      <a href="#contact" class="bg-orange-700 hover:bg-orange-600 px-4 sm:px-5 py-3 rounded-full text-sm font-semibold transition-all flex items-center gap-2">
+        Let's talk <i class="fas fa-arrow-right" aria-hidden="true"></i>
+      </a>
+      <button id="langBtn" type="button" class="w-11 h-11 rounded-full overflow-hidden border border-zinc-700 hover:border-orange-500 transition shrink-0">
+        <svg id="flagBR" viewBox="0 0 32 32" class="w-full h-full" aria-hidden="true"><rect width="32" height="32" fill="#009c3b"/><path d="M16 5l12 11-12 11L4 16z" fill="#ffdf00"/><circle cx="16" cy="16" r="5.5" fill="#002776"/></svg>
+        <svg id="flagUS" viewBox="0 0 32 32" class="w-full h-full hidden" aria-hidden="true"><rect width="32" height="32" fill="#fff"/><g fill="#b22234"><rect y="0" width="32" height="2.5"/><rect y="4.9" width="32" height="2.5"/><rect y="9.8" width="32" height="2.5"/><rect y="14.8" width="32" height="2.5"/><rect y="19.7" width="32" height="2.5"/><rect y="24.6" width="32" height="2.5"/><rect y="29.5" width="32" height="2.5"/></g><rect width="16" height="17.2" fill="#3c3b6e"/></svg>
+      </button>
+      <button id="menuBtn" class="md:hidden w-11 h-11 rounded-full border border-zinc-700 flex items-center justify-center" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="hidden md:hidden border-t border-zinc-800 bg-zinc-950 px-6 py-4 space-y-4 text-base font-medium">
+    <a href="#work" class="block">Work</a>
+    <a href="#services" class="block">Services</a>
+    <a href="#pricing" class="block">Pricing</a>
+    <a href="#about" class="block">About</a>
+    <a href="#contact" class="block">Contact</a>
+  </div>
+</nav>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero-bg min-h-screen pt-24 flex items-center">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    <div class="space-y-8">
+      <div class="inline-flex items-center gap-2 bg-zinc-900 border border-gray-500/30 text-sm px-4 py-2 rounded-full">
+        <div class="w-2 h-2 bg-orange-600 rounded-full animate-pulse"></div>
+        Available for new projects – 2026
+      </div>
+      <h1 class="text-4xl md:text-5xl font-bold leading-tight heading-font">
+        I build <span class="text-orange-500">fast, professional</span> and responsive websites.
+      </h1>
+      <p class="text-xl text-zinc-400 max-w-lg">
+        Freelance web designer and front-end developer. I create landing pages and business websites that look credible, load quickly and work on every screen.
+      </p>
+      <div class="flex flex-wrap gap-4">
+        <a href="#work" class="bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-full font-semibold text-lg inline-flex items-center gap-3 transition-all">
+          See my work <i class="fas fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        <a href="#contact" class="border border-zinc-700 hover:border-zinc-400 px-8 py-4 rounded-full font-semibold text-lg transition-all">Get in touch</a>
+      </div>
+      <div class="flex gap-10 pt-4">
+        <div><div class="text-4xl font-semibold text-orange-400">9</div><div class="text-sm text-zinc-500">Projects built</div></div>
+        <div><div class="text-4xl font-semibold text-orange-400">3 yrs</div><div class="text-sm text-zinc-500">IT training</div></div>
+        <div><div class="text-4xl font-semibold text-orange-400">24h</div><div class="text-sm text-zinc-500">Reply time</div></div>
+      </div>
+    </div>
+
+    <div class="relative">
+      <div class="aspect-square bg-zinc-900 rounded-3xl overflow-hidden border border-orange-500/20 shadow-2xl">
+        <img src="./src/img/profile.webp" alt="Jean Ribeiro, front-end developer and web designer" width="600" height="600" class="w-full h-full object-cover">
+      </div>
+      <div class="absolute -bottom-6 right-0 md:-right-6 bg-zinc-900 border border-orange-500 rounded-2xl p-5 shadow-xl">
+        <div class="text-sm font-medium">Front-End & Web Designer</div>
+        <div class="text-orange-400 text-lg font-semibold">JR | Jean Ribeiro</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECH STACK -->
+<section class="py-14 border-b border-zinc-800" aria-label="Technologies">
+  <div class="max-w-7xl mx-auto px-6 flex flex-wrap justify-center gap-x-10 gap-y-4 text-zinc-400 text-sm font-medium">
+    <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Tailwind CSS</span><span>Bootstrap</span><span>SASS</span><span>WordPress</span><span>Elementor</span><span>PHP</span><span>SQL</span><span>REST APIs</span><span>Figma</span><span>Git/GitHub</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="work" class="py-24">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-12">
+      <div>
+        <h2 class="text-4xl md:text-5xl heading-font font-semibold">Selected projects</h2>
+        <p class="text-zinc-400 mt-3 max-w-xl">Concept websites built to show my design and development process. All of them are responsive.</p>
+      </div>
+      <a href="#contact" class="text-orange-400 hover:underline whitespace-nowrap">Start a project <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+    </div>
+
+    <div id="projectsGrid" class="grid md:grid-cols-2 gap-8">
+
+      <article class="project-card group card-hover bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800">
+        <div class="h-80 bg-zinc-800 overflow-hidden"><img src="./src/img-sites/barber-site.webp" alt="Barber landing page" width="800" height="500" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+        <div class="p-8">
+          <div class="flex justify-between items-start gap-4">
+            <div><h3 class="font-semibold text-xl">Barber</h3><div class="text-zinc-400 text-sm">Landing page</div></div>
+            <div class="flex gap-2 shrink-0"><span class="text-xs px-3 py-1 bg-zinc-800 rounded-full">JavaScript</span><span class="text-xs px-3 py-1 bg-zinc-800 rounded-full">Bootstrap</span></div>
+          </div>
+          <p class="mt-4 text-zinc-400">Booking-focused landing page for a barbershop: services, prices and a clear call to action.</p>
+          <div class="flex gap-4 mt-8">
+            <a href="./src/img-sites/barber-site.webp" target="_blank" rel="noopener" class="flex-1 bg-orange-500 text-center py-4 rounded-2xl font-medium hover:bg-orange-600 transition">Preview</a>
+            <a href="https://github.com/JeanRibeiro8/barber-site" target="_blank" rel="noopener" class="flex-1 border border-zinc-700 text-center py-4 rounded-2xl font-medium hover:bg-zinc-800 transition">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card group card-hover bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800">
+        <div class="h-80 bg-zinc-800 overflow-hidden"><img src="./src/img-sites/gym-site.webp" alt="Gym landing page" width="800" height="500" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+        <div class="p-8">
+          <div class="flex justify-between items-start gap-4">
+            <div><h3 class="font-semibold text-xl">Gym</h3><div class="text-zinc-400 text-sm">Landing page</div></div>
+            <div class="flex gap-2 shrink-0"><span class="text-xs px-3 py-1 bg-zinc-800 rounded-full">JavaScript</span><span class="text-xs px-3 py-1 bg-zinc-800 rounded-full">Bootstrap</span></div>
+          </div>
+          <p class="mt-4 text-zinc-400">Landing page for a gym that presents plans and classes and pushes visitors to sign up.</p>
+          <div class="flex gap-4 mt-8">
+            <a href="https://jeanribeiro8.github.io/gym-site/" target="_blank" rel="noopener" class="flex-1 bg-orange-500 text-center py-4 rounded-2xl font-medium hover:bg-orange-600 transition">Live site</a>
+            <a href="https://github.com/JeanRibeiro8/gym-site" target="_blank" rel="noopener" class="flex-1 border border-zinc-700 text-center py-4 rounded-2xl font-medium hover:bg-zinc-800 transition">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card group card-hover bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800">
+        <div class="h-80 bg-zinc-800 overflow-hidden"><img src="./src/img-sites/tech-site.webp" alt="Techschool website" width="800" height="500" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+        <div class="p-8">
+          <div class="flex justify-between items-start gap-4">
+            <div><h3 class="font-semibold text-xl">Techschool</h3><div class="text-zinc-400 text-sm">Institutional website</div></div>
+            <div class="flex gap-2 shrink-0"><span class="text-xs px-3 py-1 bg-zinc-800 rounded-full">JavaScript</span><span class="text-xs px-3 py-1 bg-zinc-800 rounded-full">Bootstrap</span></div>
+          </div>
+          <p class="mt-4 text-zinc-400">Website for a technology school, organizing courses and enrollment info in a clear structure.</p>
+          <div class="flex gap-4 mt-8">
+            <a href="https://jeanribeiro8.github.io/TecSchool/" target="_blank" rel="noopener" class="flex-1 bg-orange-500 text-center py-4 rounded-2xl font-medium hover:bg-orange-600 transition">Live site</a>
+            <a href="https://github.com/JeanRibeiro8/TecSchool" target="_blank" rel="noopener" class="flex-1 border border-zinc-700 text-center py-4 rounded-2xl font-medium hover:bg-zinc-800 transition">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card group card-hover bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800">
+        <div class="h-80 bg-zinc-800 overflow-hidden"><img src="./src/img-sites/1.consult.webp" alt="Nexus Consulting website" width="800" height="500" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+        <div class="p-8">
+          <div class="flex justify-between items-start gap-4">
+            <div><h3 class="font-semibold text-xl">Nexus Consulting</h3><div class="text-zinc-400 text-sm">Web design · landing page</div></div>
+            <div class="flex gap-2 shrink-0"><span class="text-xs px-3 py-1 bg-zinc-800 rounded-full">JavaScript</span><span class="text-xs px-3 py-1 bg-zinc-800 rounded-full">Tailwind</span></div>
+          </div>
+          <p class="mt-4 text-zinc-400">Corporate site for a consulting firm, designed to build trust and generate contact requests.</p>
+          <div class="flex gap-4 mt-8">
+            <a href="https://nexusconsultin.netlify.app/" target="_blank" rel="noopener" class="flex-1 bg-orange-500 text-center py-4 rounded-2xl font-medium hover:bg-orange-600 transition">Live site</a>
+            <a href="https://github.com/JeanRibeiro8/nexus-consulting" target="_blank" rel="noopener" class="flex-1 border border-zinc-700 text-center py-4 rounded-2xl font-medium hover:bg-zinc-800 transition">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card group card-hover bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800">
+        <div class="h-80 bg-zinc-800 overflow-hidden"><img src="./src/img-sites/1.dent.webp" alt="BrightSmile dental clinic website" width="800" height="500" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+        <div class="p-8">
+          <div class="flex justify-between items-start gap-4">
+            <div><h3 class="font-semibold text-xl">BrightSmile</h3><div class="text-zinc-400 text-sm">Web design · landing page</div></div>
+            <div class="flex gap-2 shrink-0"><span class="text-xs px-3 py-1 bg-zinc-800 rounded-full">JavaScript</span><span class="text-xs px-3 py-1 bg-zinc-800 rounded-full">Tailwind</span></div>
+          </div>
+          <p class="mt-4 text-zinc-400">Dental clinic website with treatments, team and an easy way to book an appointment.</p>
+          <div class="flex gap-4 mt-8">
+            <a href="https://brightsmlle.netlify.app/" target="_blank" rel="noopener" class="flex-1 bg-orange-500 text-center py-4 rounded-2xl font-medium hover:bg-orange-600 transition">Live site</a>
+            <a href="https://github.com/JeanRibeiro8/brightsmile-site" target="_blank" rel="noopener" class="flex-1 border border-zinc-700 text-center py-4 rounded-2xl font-medium hover:bg-zinc-800 transition">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card group card-hover bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800">
+        <div class="h-80 bg-zinc-800 overflow-hidden"><img src="./src/img-sites/marketing.webp" alt="Blaze Agencia marketing website" width="800" height="500" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+        <div class="p-8">
+          <div class="flex justify-between items-start gap-4">
+            <div><h3 class="font-semibold text-xl">Blaze Agencia</h3><div class="text-zinc-400 text-sm">Web design · landing page</div></div>
+            <div class="flex gap-2 shrink-0"><span class="text-xs px-3 py-1 bg-zinc-800 rounded-full">JavaScript</span><span class="text-xs px-3 py-1 bg-zinc-800 rounded-full">Tailwind</span></div>
+          </div>
+          <p class="mt-4 text-zinc-400">Bold marketing agency site that highlights services and results to attract new clients.</p>
+          <div class="flex gap-4 mt-8">
+            <a href="https://blazeagencia.netlify.app/" target="_blank" rel="noopener" class="flex-1 bg-orange-500 text-center py-4 rounded-2xl font-medium hover:bg-orange-600 transition">Live site</a>
+            <a href="https://github.com/JeanRibeiro8/blaze-agencia" target="_blank" rel="noopener" class="flex-1 border border-zinc-700 text-center py-4 rounded-2xl font-medium hover:bg-zinc-800 transition">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card group card-hover bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800">
+        <div class="h-80 bg-zinc-800 overflow-hidden"><img src="./src/img-sites/petalora.webp" alt="Petalora e-commerce website" width="800" height="500" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+        <div class="p-8">
+          <div class="flex justify-between items-start gap-4">
+            <div><h3 class="font-semibold text-xl">Petalora</h3><div class="text-zinc-400 text-sm">Web design · e-commerce</div></div>
+            <div class="flex gap-2 shrink-0"><span class="text-xs px-3 py-1 bg-zinc-800 rounded-full">JavaScript</span><span class="text-xs px-3 py-1 bg-zinc-800 rounded-full">Tailwind</span></div>
+          </div>
+          <p class="mt-4 text-zinc-400">Online store concept for a flower shop, focused on product browsing and a simple path to purchase.</p>
+          <div class="flex gap-4 mt-8">
+            <a href="./src/img-sites/petalora.webp" target="_blank" rel="noopener" class="flex-1 bg-orange-500 text-center py-4 rounded-2xl font-medium hover:bg-orange-600 transition">Preview</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-24 bg-zinc-900">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-4xl md:text-5xl heading-font font-semibold">What I can do for you</h2>
+    <p class="text-zinc-400 mt-3 max-w-xl">Whether you're starting from scratch or already have a site, I'll help you get a page that works for your business.</p>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+      <div class="bg-zinc-950 p-8 rounded-3xl border border-zinc-800">
+        <i class="fas fa-laptop-code text-3xl text-orange-400 mb-6" aria-hidden="true"></i>
+        <h3 class="font-semibold text-lg">New website</h3>
+        <p class="text-zinc-400 mt-3 text-sm">Landing pages and business websites, designed in Figma and built responsive from the start.</p>
+      </div>
+      <div class="bg-zinc-950 p-8 rounded-3xl border border-zinc-800">
+        <i class="fas fa-rotate text-3xl text-orange-400 mb-6" aria-hidden="true"></i>
+        <h3 class="font-semibold text-lg">Website redesign</h3>
+        <p class="text-zinc-400 mt-3 text-sm">A fresh, modern look for an outdated site, keeping your content and improving how it feels to use.</p>
+      </div>
+      <div class="bg-zinc-950 p-8 rounded-3xl border border-zinc-800">
+        <i class="fas fa-magnifying-glass-chart text-3xl text-orange-400 mb-6" aria-hidden="true"></i>
+        <h3 class="font-semibold text-lg">Website review</h3>
+        <p class="text-zinc-400 mt-3 text-sm">A clear list of what to fix in your current site's design, usability and speed.</p>
+      </div>
+      <div class="bg-zinc-950 p-8 rounded-3xl border border-zinc-800">
+        <i class="fas fa-gauge-high text-3xl text-orange-400 mb-6" aria-hidden="true"></i>
+        <h3 class="font-semibold text-lg">Speed & SEO</h3>
+        <p class="text-zinc-400 mt-3 text-sm">Lighter images, cleaner code and better page structure so your site loads fast and is easier to find.</p>
+      </div>
+    </div>
+
+    <h3 class="text-2xl font-semibold mt-20">How we work together</h3>
+    <ol class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+      <li class="bg-zinc-950 p-6 rounded-2xl"><div class="text-orange-400 text-2xl font-bold">1</div><div class="font-medium mt-2">Discovery</div><div class="text-zinc-400 text-sm mt-1">We talk about your goals and audience.</div></li>
+      <li class="bg-zinc-950 p-6 rounded-2xl"><div class="text-orange-400 text-2xl font-bold">2</div><div class="font-medium mt-2">Design</div><div class="text-zinc-400 text-sm mt-1">You approve the layout in Figma.</div></li>
+      <li class="bg-zinc-950 p-6 rounded-2xl"><div class="text-orange-400 text-2xl font-bold">3</div><div class="font-medium mt-2">Development</div><div class="text-zinc-400 text-sm mt-1">I build it responsive and fast.</div></li>
+      <li class="bg-zinc-950 p-6 rounded-2xl"><div class="text-orange-400 text-2xl font-bold">4</div><div class="font-medium mt-2">Launch</div><div class="text-zinc-400 text-sm mt-1">I publish it and make final adjustments.</div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="py-24">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-4xl md:text-5xl heading-font font-semibold">Pricing</h2>
+    <p class="text-zinc-400 mt-3 max-w-2xl">Prices in Brazilian reais (R$). Every project includes full responsiveness, basic SEO, performance optimization, a contact form and deployment (Vercel/Netlify). The final quote depends on scope, so send me your idea and I'll confirm it.</p>
+
+    <div class="grid lg:grid-cols-2 gap-8 mt-12">
+
+      <div class="bg-zinc-900 p-8 rounded-3xl border border-zinc-800">
+        <h3 class="text-xl font-semibold mb-4">Websites</h3>
+        <div class="prow"><span>Site analysis + detailed quote</span><span>Free or R$50–150 (deducted from the project)</span></div>
+        <div class="prow"><span>Simple landing page (1 section, CTA, form)</span><span>R$600–900</span></div>
+        <div class="prow"><span>Professional landing page</span><span>R$900–1,500</span></div>
+        <div class="prow"><span>Premium landing page (animations, custom design)</span><span>R$1,500–2,500</span></div>
+        <div class="prow"><span>Additional page</span><span>R$400 scope + R$200 per page</span></div>
+        <div class="prow"><span>Institutional site (up to 5 pages)</span><span>R$1,500–2,500</span></div>
+        <div class="prow"><span>Premium institutional site</span><span>R$2,500–4,000</span></div>
+        <div class="prow"><span>Site for psychologists, lawyers, doctors</span><span>R$2,000–4,000</span></div>
+        <div class="prow"><span>Professional portfolio</span><span>R$800–1,500</span></div>
+        <div class="prow"><span>Restaurant site</span><span>R$1,500–2,800</span></div>
+        <div class="prow"><span>Real estate site (without listings system)</span><span>R$2,000–3,500</span></div>
+        <div class="prow"><span>Simple e-commerce</span><span>R$3,000–6,000</span></div>
+        <div class="prow"><span>Custom dashboard / CRM</span><span>R$4,000–10,000+</span></div>
+        <div class="prow"><span>Blog (structure + pages)</span><span>+R$600–1,200</span></div>
+        <div class="prow"><span>Blog system / CMS</span><span>+R$1,000–2,500</span></div>
+      </div>
+
+      <div class="space-y-8">
+        <div class="bg-zinc-900 p-8 rounded-3xl border border-zinc-800">
+          <h3 class="text-xl font-semibold mb-4">Add-ons</h3>
+          <div class="prow"><span>Google Maps</span><span>+R$100–200</span></div>
+          <div class="prow"><span>Floating WhatsApp button</span><span>+R$50–100</span></div>
+          <div class="prow"><span>Instagram integration</span><span>+R$100–200</span></div>
+          <div class="prow"><span>Google Analytics</span><span>+R$150–300</span></div>
+          <div class="prow"><span>Advanced form</span><span>+R$200–500</span></div>
+          <div class="prow"><span>Admin area</span><span>+R$2,000</span></div>
+        </div>
+
+        <div class="bg-zinc-900 p-8 rounded-3xl border border-zinc-800">
+          <h3 class="text-xl font-semibold mb-4">Animations</h3>
+          <div class="prow"><span>Hover effects and transitions</span><span>Included</span></div>
+          <div class="prow"><span>Fade in / scroll reveal</span><span>+R$200–400</span></div>
+          <div class="prow"><span>Animated cards</span><span>+R$150–300</span></div>
+          <div class="prow"><span>Animated navbar</span><span>+R$100–200</span></div>
+          <div class="prow"><span>Custom accordion</span><span>+R$100–200</span></div>
+          <div class="prow"><span>Framer Motion (basic)</span><span>+R$300–600</span></div>
+          <div class="prow"><span>Parallax</span><span>+R$300–600</span></div>
+          <div class="prow"><span>Microinteractions</span><span>+R$300–700</span></div>
+          <div class="prow"><span>GSAP</span><span>+R$700–1,500</span></div>
+          <div class="prow"><span>Page with many animations</span><span>+R$700–1,500</span></div>
+        </div>
+      </div>
+
+      <div class="bg-zinc-900 p-8 rounded-3xl border border-zinc-800">
+        <h3 class="text-xl font-semibold mb-4">Migration and redesign</h3>
+        <div class="prow"><span>Wix → React</span><span>60–70% of a new site</span></div>
+        <div class="prow"><span>WordPress → React</span><span>60–70% of a new site</span></div>
+        <div class="prow"><span>Figma → React</span><span>Same as a new site</span></div>
+        <div class="prow"><span>Old HTML → React</span><span>R$1,000–3,000</span></div>
+        <div class="prow"><span>Layout update</span><span>R$500–1,500</span></div>
+      </div>
+
+      <div class="bg-zinc-900 p-8 rounded-3xl border border-zinc-800">
+        <h3 class="text-xl font-semibold mb-4">Maintenance</h3>
+        <div class="prow"><span>Small changes</span><span>R$50–80/hour</span></div>
+        <div class="prow"><span>Medium changes</span><span>R$100–150</span></div>
+        <div class="prow"><span>Monthly maintenance</span><span>R$200/month</span></div>
+        <div class="prow"><span>Hosting + support</span><span>R$50–200/month</span></div>
+      </div>
+
+    </div>
+
+    <div class="mt-12 text-center">
+      <a href="#contact" class="inline-flex items-center gap-3 bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-full font-semibold text-lg transition-all">Ask for a quote <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-24">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-12 gap-16">
+    <div class="md:col-span-5">
+      <h2 class="text-4xl md:text-5xl heading-font font-semibold leading-tight">
+        Developer's mind.<br><span class="text-orange-400">Designer's eye.</span>
+      </h2>
+    </div>
+    <div class="md:col-span-7 space-y-6 text-lg text-zinc-400">
+      <p>I'm Jean, a freelance front-end developer and web designer from Lorena, Brazil. I studied IT for 3 years in a technical course and now build websites with HTML, CSS, JavaScript, React, WordPress and Figma.</p>
+      <p>My focus is simple: fast, intuitive pages that match what each client needs. I'm still early in my career, so I put extra care into every project and communicate clearly at every step.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-24 bg-zinc-900">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+    <div>
+      <h2 class="text-4xl md:text-5xl heading-font font-semibold leading-tight">Got a project in mind?</h2>
+      <p class="text-zinc-400 max-w-lg mt-6">Tell me about it. I reply to every message within 24 hours, usually with a few questions and ideas to get started.</p>
+      <div class="mt-10 space-y-5">
+        <div class="flex items-center gap-4"><i class="fas fa-envelope text-orange-400" aria-hidden="true"></i><a href="mailto:jeanrsantos10@gmail.com" class="hover:text-orange-400">jeanrsantos10@gmail.com</a></div>
+        <div class="flex items-center gap-4"><i class="fas fa-globe text-orange-400" aria-hidden="true"></i><span>Remote · Lorena, Brazil</span></div>
+        <div class="flex items-center gap-4"><i class="fas fa-phone text-orange-400" aria-hidden="true"></i><a href="tel:+5512991371731" class="hover:text-orange-400">+55 12 99137-1731</a></div>
+      </div>
+    </div>
+
+    <form id="contactForm" class="space-y-6" action="https://formspree.io/f/xreoekev" method="POST">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <input type="text" name="nome" placeholder="Name" aria-label="Name" required class="bg-zinc-950 border border-zinc-700 rounded-2xl px-6 py-5 focus:outline-none focus:border-orange-500">
+        <input type="email" name="email" placeholder="Email" aria-label="Email" required class="bg-zinc-950 border border-zinc-700 rounded-2xl px-6 py-5 focus:outline-none focus:border-orange-500">
+      </div>
+      <input type="text" name="orcamento" placeholder="Budget (optional)" aria-label="Budget" class="w-full bg-zinc-950 border border-zinc-700 rounded-2xl px-6 py-5 focus:outline-none focus:border-orange-500">
+      <textarea name="mensagem" placeholder="Tell me about the project..." aria-label="Message" rows="6" required class="w-full bg-zinc-950 border border-zinc-700 rounded-3xl px-6 py-5 focus:outline-none focus:border-orange-500"></textarea>
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+      <input type="hidden" name="_subject" value="New message | JR Portfolio!">
+      <button type="submit" class="w-full bg-gradient-to-r from-orange-500 to-orange-600 py-5 rounded-3xl font-semibold text-lg hover:scale-[1.02] transition-all">Send message</button>
+      <p id="formStatus" class="text-center text-sm" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-black py-12 border-t border-zinc-800">
+  <div class="max-w-7xl mx-auto px-6 text-center text-zinc-500 text-sm">© 2026 Jean Ribeiro</div>
+  <div class="social">
+    <a href="https://github.com/JeanRibeiro8?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/jean-ribeiro-9a3792267/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://wa.me/5512991371731" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  </div>
+</footer>
+
+<script src="./src/script/script.js"></script>
+<script>
+// Mobile menu
+const btn = document.getElementById('menuBtn'), menu = document.getElementById('mobileMenu');
+btn.addEventListener('click', () => {
+  const open = menu.classList.toggle('hidden') === false;
+  btn.setAttribute('aria-expanded', open);
+});
+menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { menu.classList.add('hidden'); btn.setAttribute('aria-expanded', 'false'); }));
+
+// Contact form: send without leaving the page
+const form = document.getElementById('contactForm'), status = document.getElementById('formStatus');
+form.addEventListener('submit', async e => {
+  e.preventDefault();
+  setStatus('sending');
+  try {
+    const r = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+    if (r.ok) { form.reset(); setStatus('ok', 'text-green-400'); }
+    else throw new Error();
+  } catch { setStatus('err', 'text-red-400'); }
+});
+</script>
+
+<script>
+// ===== Idioma: português (padrão) / inglês =====
+const PT = {
+  "Work":"Trabalhos","Services":"Serviços","Pricing":"Preços","About":"Sobre","Contact":"Contato",
+  "Let's talk":"Vamos conversar",
+  "Available for new projects – 2026":"Disponível para novos projetos – 2026",
+  "I build":"Eu crio sites","fast, professional":"rápidos, profissionais","and responsive websites.":"e responsivos.",
+  "Freelance web designer and front-end developer. I create landing pages and business websites that look credible, load quickly and work on every screen.":"Web designer e desenvolvedor front-end freelancer. Crio landing pages e sites para empresas que passam credibilidade, carregam rápido e funcionam em qualquer tela.",
+  "See my work":"Ver meus trabalhos","Get in touch":"Entre em contato",
+  "Projects built":"Projetos criados","3 yrs":"3 anos","IT training":"Formação em TI","Reply time":"Tempo de resposta",
+  "Selected projects":"Projetos selecionados",
+  "Concept websites built to show my design and development process. All of them are responsive.":"Sites conceito criados para mostrar meu processo de design e desenvolvimento. Todos são responsivos.",
+  "Start a project":"Iniciar um projeto",
+  "Institutional website":"Site institucional",
+  "Booking-focused landing page for a barbershop: services, prices and a clear call to action.":"Landing page para barbearia com foco em agendamento: serviços, preços e uma chamada para ação clara.",
+  "Landing page for a gym that presents plans and classes and pushes visitors to sign up.":"Landing page para academia que apresenta planos e aulas e incentiva a matrícula.",
+  "Website for a technology school, organizing courses and enrollment info in a clear structure.":"Site para uma escola de tecnologia, com cursos e informações de matrícula organizados de forma clara.",
+  "Corporate site for a consulting firm, designed to build trust and generate contact requests.":"Site institucional para uma consultoria, pensado para gerar confiança e pedidos de contato.",
+  "Dental clinic website with treatments, team and an easy way to book an appointment.":"Site para clínica odontológica com tratamentos, equipe e um jeito fácil de agendar consulta.",
+  "Bold marketing agency site that highlights services and results to attract new clients.":"Site ousado para agência de marketing que destaca serviços e resultados para atrair novos clientes.",
+  "Online store concept for a flower shop, focused on product browsing and a simple path to purchase.":"Conceito de loja online para floricultura, focado na navegação de produtos e num caminho simples até a compra.",
+  "Preview":"Visualizar","Live site":"Ver site","Code":"Código",
+  "What I can do for you":"O que posso fazer por você",
+  "Whether you're starting from scratch or already have a site, I'll help you get a page that works for your business.":"Seja para começar do zero ou melhorar um site que você já tem, eu ajudo você a ter uma página que funcione para o seu negócio.",
+  "New website":"Site novo",
+  "Landing pages and business websites, designed in Figma and built responsive from the start.":"Landing pages e sites institucionais, desenhados no Figma e construídos responsivos desde o início.",
+  "Website redesign":"Redesign de site",
+  "A fresh, modern look for an outdated site, keeping your content and improving how it feels to use.":"Um visual novo e moderno para um site ultrapassado, mantendo seu conteúdo e melhorando a experiência de uso.",
+  "Website review":"Análise de site",
+  "A clear list of what to fix in your current site's design, usability and speed.":"Uma lista clara do que corrigir no design, na usabilidade e na velocidade do seu site atual.",
+  "Speed & SEO":"Velocidade e SEO",
+  "Lighter images, cleaner code and better page structure so your site loads fast and is easier to find.":"Imagens mais leves, código mais limpo e melhor estrutura de página para o site carregar rápido e ser mais fácil de encontrar.",
+  "How we work together":"Como trabalhamos juntos",
+  "Discovery":"Descoberta","We talk about your goals and audience.":"Conversamos sobre seus objetivos e seu público.",
+  "Design":"Design","You approve the layout in Figma.":"Você aprova o layout no Figma.",
+  "Development":"Desenvolvimento","I build it responsive and fast.":"Eu construo o site responsivo e rápido.",
+  "Launch":"Publicação","I publish it and make final adjustments.":"Eu publico o site e faço os ajustes finais.",
+  "Prices in Brazilian reais (R$). Every project includes full responsiveness, basic SEO, performance optimization, a contact form and deployment (Vercel/Netlify). The final quote depends on scope, so send me your idea and I'll confirm it.":"Valores em reais (R$). Todo projeto inclui responsividade completa, SEO básico, otimização de performance, formulário de contato e deploy (Vercel/Netlify). O orçamento final depende do escopo: me conte sua ideia e eu confirmo o valor.",
+  "Websites":"Sites","Add-ons":"Adicionais","Animations":"Animações","Migration and redesign":"Migração e redesign","Maintenance":"Manutenção",
+  "Site analysis + detailed quote":"Análise do site + orçamento detalhado",
+  "Free or R$50–150 (deducted from the project)":"Gratuito ou R$50–150 (abatido no projeto)",
+  "Simple landing page (1 section, CTA, form)":"Landing page simples (1 seção, CTA, formulário)",
+  "Professional landing page":"Landing page profissional",
+  "Premium landing page (animations, custom design)":"Landing page premium (animações, design personalizado)",
+  "Additional page":"Página adicional","R$400 scope + R$200 per page":"R$400 (escopo) + R$200 por página",
+  "Institutional site (up to 5 pages)":"Site institucional (até 5 páginas)",
+  "Premium institutional site":"Site institucional premium",
+  "Site for psychologists, lawyers, doctors":"Site para psicólogos, advogados, médicos",
+  "Professional portfolio":"Portfólio profissional","Restaurant site":"Site para restaurante",
+  "Real estate site (without listings system)":"Site para imobiliária (sem sistema de imóveis)",
+  "Simple e-commerce":"E-commerce simples","Custom dashboard / CRM":"Dashboard / CRM personalizado",
+  "Blog (structure + pages)":"Blog (estrutura + páginas)","Blog system / CMS":"Sistema de blog / CMS",
+  "Floating WhatsApp button":"WhatsApp flutuante","Instagram integration":"Integração com Instagram",
+  "Advanced form":"Formulário avançado","Admin area":"Área administrativa",
+  "Hover effects and transitions":"Hover e transições","Included":"Incluso",
+  "Animated cards":"Cards animados","Animated navbar":"Navbar animada","Custom accordion":"Accordion personalizado",
+  "Framer Motion (basic)":"Framer Motion (básico)","Microinteractions":"Microinterações",
+  "Page with many animations":"Página com muitas animações",
+  "60–70% of a new site":"60–70% do valor de um site novo","Same as a new site":"Mesmo valor de um site novo",
+  "Old HTML → React":"HTML antigo → React","Layout update":"Atualização de layout",
+  "Small changes":"Alterações pequenas","R$50–80/hour":"R$50–80/hora","Medium changes":"Alterações médias",
+  "Monthly maintenance":"Mensalidade de manutenção","R$200/month":"R$200/mês",
+  "Hosting + support":"Hospedagem + suporte","R$50–200/month":"R$50–200/mês",
+  "Ask for a quote":"Peça um orçamento",
+  "Developer's mind.":"Mente de desenvolvedor.","Designer's eye.":"Olhar de designer.",
+  "I'm Jean, a freelance front-end developer and web designer from Lorena, Brazil. I studied IT for 3 years in a technical course and now build websites with HTML, CSS, JavaScript, React, WordPress and Figma.":"Sou o Jean, desenvolvedor front-end e web designer freelancer de Lorena (SP). Estudei informática por 3 anos em um curso técnico e hoje crio sites com HTML, CSS, JavaScript, React, WordPress e Figma.",
+  "My focus is simple: fast, intuitive pages that match what each client needs. I'm still early in my career, so I put extra care into every project and communicate clearly at every step.":"Meu foco é simples: páginas rápidas e intuitivas, alinhadas ao que cada cliente precisa. Ainda estou no início da carreira, então tenho cuidado extra com cada projeto e comunico tudo com clareza em cada etapa.",
+  "Got a project in mind?":"Tem um projeto em mente?",
+  "Tell me about it. I reply to every message within 24 hours, usually with a few questions and ideas to get started.":"Me conte sobre ele. Respondo todas as mensagens em até 24 horas, geralmente com algumas perguntas e ideias para começar.",
+  "Remote · Lorena, Brazil":"Remoto · Lorena, Brasil","Send message":"Enviar mensagem",
+  /* atributos */
+  "Name":"Nome","Email":"E-mail","Budget (optional)":"Orçamento (opcional)","Tell me about the project...":"Conte sobre o projeto...",
+  "Budget":"Orçamento","Message":"Mensagem","Open menu":"Abrir menu","Main":"Principal","Technologies":"Tecnologias",
+  "JR Front-End Developer logo":"Logo JR Desenvolvedor Front-End",
+  "Jean Ribeiro, front-end developer and web designer":"Jean Ribeiro, desenvolvedor front-end e web designer",
+  "Barber landing page":"Landing page da barbearia","Gym landing page":"Landing page da academia",
+  "Techschool website":"Site da Techschool","Nexus Consulting website":"Site da Nexus Consulting",
+  "BrightSmile dental clinic website":"Site da clínica odontológica BrightSmile",
+  "Blaze Agencia marketing website":"Site da agência de marketing Blaze Agencia",
+  "Petalora e-commerce website":"E-commerce da Petalora"
+};
+const META = {
+  pt: { title: "Jean Ribeiro | Desenvolvedor Front-End e Web Designer Freelancer", desc: "Desenvolvedor Front-End e Web Designer freelancer que cria sites modernos, responsivos e rápidos. Landing pages, redesign, análise de sites, SEO e otimização de performance." },
+  en: { title: document.title, desc: document.querySelector('meta[name="description"]').content }
+};
+const STATUS = {
+  sending: { pt: 'Enviando...', en: 'Sending...' },
+  ok: { pt: 'Obrigado! Sua mensagem foi enviada. Respondo em até 24 horas.', en: 'Thanks! Your message was sent. I will reply within 24 hours.' },
+  err: { pt: 'Algo deu errado. Envie um e-mail direto para jeanrsantos10@gmail.com.', en: 'Something went wrong. Please email me directly at jeanrsantos10@gmail.com.' }
+};
+const ATTRS = ['alt', 'placeholder', 'aria-label'];
+const textOrig = new WeakMap();
+let lang = 'pt', statusKey = null, statusCls = '';
+try { if (localStorage.getItem('lang') === 'en') lang = 'en'; } catch (e) {}
+
+// Preços em português usam ponto como separador de milhar (R$1.500)
+const tr = s => PT[s] !== undefined ? PT[s] : (s.includes('R$') ? s.replace(/(\d),(\d{3})/g, '$1.$2') : s);
+
+function setStatus(key, cls) {
+  statusKey = key; statusCls = cls || '';
+  const el = document.getElementById('formStatus');
+  el.textContent = STATUS[key][lang];
+  el.className = 'text-center text-sm ' + statusCls;
+}
+
+function applyLang() {
+  const pt = lang === 'pt';
+  document.documentElement.lang = pt ? 'pt-BR' : 'en';
+  document.title = META[lang].title;
+  document.querySelector('meta[name="description"]').content = META[lang].desc;
+
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT), nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  nodes.forEach(n => {
+    if (!n.nodeValue.trim() || n.parentElement.closest('script,style,#formStatus')) return;
+    if (!textOrig.has(n)) textOrig.set(n, n.nodeValue);
+    const o = textOrig.get(n), m = o.match(/^(\s*)([\s\S]*?)(\s*)$/);
+    n.nodeValue = pt ? m[1] + tr(m[2]) + m[3] : o;
+  });
+  ATTRS.forEach(a => document.querySelectorAll('[' + a + ']').forEach(el => {
+    if (el.id === 'langBtn') return;
+    const k = 'data-o-' + a;
+    if (!el.hasAttribute(k)) el.setAttribute(k, el.getAttribute(a));
+    el.setAttribute(a, pt ? tr(el.getAttribute(k)) : el.getAttribute(k));
+  }));
+
+  const b = document.getElementById('langBtn'), label = pt ? 'Mudar idioma para inglês' : 'Switch language to Portuguese';
+  b.setAttribute('aria-label', label); b.title = label;
+  document.getElementById('flagBR').classList.toggle('hidden', !pt);
+  document.getElementById('flagUS').classList.toggle('hidden', pt);
+  if (statusKey) setStatus(statusKey, statusCls);
+  document.documentElement.classList.remove('i18n-wait');
+}
+
+document.getElementById('langBtn').addEventListener('click', () => {
+  lang = lang === 'pt' ? 'en' : 'pt';
+  try { localStorage.setItem('lang', lang); } catch (e) {}
+  applyLang();
+});
+applyLang();
+</script>
+
+<!-- GSAP: content stays visible if the library fails to load -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script defer>
+window.addEventListener('load', () => {
+  if (!window.gsap || !window.ScrollTrigger || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.from('.hero-bg .space-y-8 > *', { opacity: 0, y: 40, duration: 0.9, stagger: 0.15, ease: 'power3.out', delay: 0.2 });
+  gsap.from('.hero-bg .relative', { opacity: 0, x: 60, duration: 1.1, ease: 'power3.out', delay: 0.4 });
+  gsap.from('#services .grid > div', { opacity: 0, y: 40, duration: 0.8, stagger: 0.12, ease: 'power3.out', scrollTrigger: { trigger: '#services', start: 'top 80%', once: true } });
+  gsap.from('#contact form', { opacity: 0, y: 30, duration: 0.9, ease: 'power3.out', scrollTrigger: { trigger: '#contact', start: 'top 80%', once: true } });
+});
+</script>
+
+</body>
+</html>
